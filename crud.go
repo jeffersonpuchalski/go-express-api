@@ -10,3 +10,4 @@ type Rest interface {
 	Delete(w http.ResponseWriter, r *http.Request)
 	Update(w http.ResponseWriter, r *http.Request)
 }
+
